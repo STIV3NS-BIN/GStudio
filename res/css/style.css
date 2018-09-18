@@ -1,3 +1,31 @@
 * {
-	background: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.intro {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: intro-fade-in 2000ms ease-in forwards;
+}
+
+.intro img {
+    width: 500px;
+    height: auto;
+}
+
+
+@keyframes intro-fade-in {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
