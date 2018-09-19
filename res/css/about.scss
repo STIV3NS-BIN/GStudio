@@ -9,9 +9,10 @@
     align-content: strech;
 
     .left, .right {
-        width: 50%;
+        flex-basis: 50%;
         min-width: 500px;
         min-height: 50vh;
+        flex-grow: 99999;
     }
 
     .left {
@@ -28,6 +29,7 @@
         span {
             text-align: center;
             padding: 20px 0;
+            width: 90%;
         }
 
         div {
