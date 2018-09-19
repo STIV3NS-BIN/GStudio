@@ -6,7 +6,8 @@
 		btn.addEventListener('click', function(e) {
 			e.preventDefault();
 			document.querySelector(btn.dataset.target).scrollIntoView({ 
-			  behavior: 'smooth' 
+			  behavior: 'smooth',
+			  block: 'start'
 			});
 		});
 	}
