@@ -43,7 +43,7 @@ $lightblue: #7FDBFF;
             display: flex;
             flex-direction: row;
             align-items: center;
-            justify-content: center;
+            justify-content: space-evenly;
 
             a {
                 display: block;
@@ -53,7 +53,6 @@ $lightblue: #7FDBFF;
                 text-decoration: none;
                 color: #fff;
                 background: $lightblue;
-                margin-left: 50px;
 
                 &:hover {
                     color: $lightblue;
