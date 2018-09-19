@@ -16,9 +16,12 @@ $duration: 2000ms;
     }
 
     .show-more {
+        display: block;
+        border: 1px solid;
         padding: 20px;
         font-weight: 700;
         font-size: 3em;
+        text-decoration: none;
         text-transform: uppercase;
         transition: 300ms;
         color: #7FDBFF;
