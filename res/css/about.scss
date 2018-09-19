@@ -24,7 +24,7 @@ $lightblue: #7FDBFF;
         justify-content: space-evenly;
         align-content: center;
         color: $lightblue;
-        font-size: 2em;
+        font-size: 1.8em;
         text-transform: uppercase;
         padding-bottom: 50px;
 
@@ -43,19 +43,21 @@ $lightblue: #7FDBFF;
             display: flex;
             flex-direction: row;
             align-items: center;
-            justify-content: space-around;
+            justify-content: center;
 
             a {
                 display: block;
                 padding: 20px;
-                color: inherit;
                 font-weight: 700;
                 font-size: 1.1em;
                 text-decoration: none;
-                border: 1px solid;
+                color: #fff;
+                background: $lightblue;
+                margin-left: 50px;
 
                 &:hover {
-                    color: #FFDC00;
+                    color: $lightblue;
+                    background: #fff;
                 }
             }
         }
