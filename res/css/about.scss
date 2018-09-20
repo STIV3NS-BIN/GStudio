@@ -63,11 +63,27 @@ $lightblue: #7FDBFF;
     }
 
     .right {
-        background: url('../img/about-photo.jpg');
-        background-size: cover;
-        background-reapet: no-reapet;
+        overflow: hidden;
+        position: relative;
+
+        &::before {
+            position: absolute;
+            display: block;
+            width: 100%;
+            height: 100%;
+            background: url('../img/about-photo.jpg');
+            background-size: cover;
+            z-index: 666;
+            content: " ";
+            transition: 500ms;
+        }
+
+        &:hover::before {
+            transform: scale(1.1);
+        }
 
         &::after {
+            position: absolute;
             display: block;
             width: 100%;
             height: 100%;
@@ -75,6 +91,11 @@ $lightblue: #7FDBFF;
             opacity: .7;
             z-index: 999;
             content: " ";
+            transition: 500ms;
+        }
+
+        &:hover::after {
+            opacity: 0;
         }
     }
 }
