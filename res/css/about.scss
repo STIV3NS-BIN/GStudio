@@ -53,6 +53,7 @@ $lightblue: #7FDBFF;
                 text-decoration: none;
                 color: #fff;
                 background: $lightblue;
+                transition: 300ms;
 
                 &:hover {
                     color: $lightblue;
