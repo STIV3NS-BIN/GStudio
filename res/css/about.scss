@@ -66,16 +66,19 @@ $lightblue: #7FDBFF;
         overflow: hidden;
         position: relative;
 
-        &::before {
+        &::before, &::after {
             position: absolute;
             display: block;
             width: 100%;
             height: 100%;
+            content: " ";
+            transition: 500ms;
+        }
+
+        &::before {
             background: url('../img/about-photo.jpg');
             background-size: cover;
             z-index: 666;
-            content: " ";
-            transition: 500ms;
         }
 
         &:hover::before {
@@ -83,15 +86,9 @@ $lightblue: #7FDBFF;
         }
 
         &::after {
-            position: absolute;
-            display: block;
-            width: 100%;
-            height: 100%;
             background: $lightblue;
             opacity: .7;
             z-index: 999;
-            content: " ";
-            transition: 500ms;
         }
 
         &:hover::after {
