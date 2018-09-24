@@ -37,7 +37,7 @@
                     ale również <b>kreatywne</b> podejście do tematu
                 </span>
                 <div>
-                    <a href="#" class="scroll-btn" data-target="#gallery">
+                    <a href="#" class="scroll-btn" data-target="#galleries">
                         Moje prace
                     </a>
                     <a href="#" class="scroll-btn">
@@ -46,27 +46,22 @@
                 </div>
             </div>
             <div class="right">
-                
+                <!-- -->
             </div>
         </div>
 
-        <div class="gallery" id="gallery">
-            <script src="res/js/galleryfiller.js"></script>
+        <div class="galleries" id="galleries">
+            <div class="square">
+                <div class="gallery"><a href="#">Wideorelacje</a></div>
+                <div class="gallery"><a href="#">Teledyski</a></div>
+                <div class="gallery"><a href="#">Inne</a></div>
+                <div class="gallery"><a href="#"></a></div>
+            </div>
         </div>
+
     </div>
 
     <script src="res/js/cssloader.js"></script>
     <script src="res/js/scrollbtns.js"></script>
-    <script src="https://cdn.plyr.io/3.4.3/plyr.js"></script>
-    <script>
-        (function(){
-            const players = Array.from(document.querySelectorAll('.gallery-video')).map(p => {
-                new Plyr(p, {
-                    controls: ['play-large', 'progress', 'volume', 'fullscreen'],
-                    volume: Number(0.15)
-                })
-            });
-        })();
-    </script>
 </body>
 </html>
