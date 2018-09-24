@@ -63,5 +63,13 @@
 
     <script src="res/js/cssloader.js"></script>
     <script src="res/js/scrollbtns.js"></script>
+    <script>
+        (function(){
+            if (/Edge/.test(navigator.userAgent)) {
+                alert('Strona jest przystosowana dla nowoczesnych przeglądarek (Chrome/Firefox)' +
+                        ' i może nie być prawidłowo wyświetlana na przeglądarcę Edge.');
+            }
+        })();
+    </script>
 </body>
 </html>
