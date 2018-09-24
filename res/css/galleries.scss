@@ -6,14 +6,14 @@
     justify-content: center;
 
     .square {
-        width: 700px;
-        height: 700px;
+        width: 90vmin;
+        height: 90vmin;
         display: flex;
         flex-flow: row wrap;
 
         .gallery {
-            width: 350px;
-            height: 350px;
+            width: 45vmin;
+            height: 45vmin;
             transition: 1000ms;
             filter: grayscale(0);
 
@@ -35,7 +35,7 @@
             &:nth-child(4) {
                 background: url(https://scontent-frx5-1.xx.fbcdn.net/v/t1.15752-9/s2048x2048/42520872_2239473276334283_8067732655468183552_n.jpg?_nc_cat=105&oh=7afee1d4d8d49d5cacb3802e618ba790&oe=5C205C84);
                 background-size: cover;
-            }
+            } /* TEMPORARY BACKGROUNDS */
 
             &:hover {
                 filter: grayscale(1);
