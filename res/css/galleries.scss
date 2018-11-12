@@ -61,28 +61,28 @@
 
         .wideorelacje {
             &::before {
-                background: url(../img/wideorelacje.png);
+                background: url("../img/wideorelacje.png");
                 background-size: cover;
             }
         }
 
         .teledyski {
             &::before {
-                background: url(../img/music.png);
+                background: url("../img/music.png");
                 background-size: cover;
             }
         }
 
         .inne {
             &::before {
-                background: url(../img/inne.jpg);
+                background: url("../img/inne.jpg");
                 background-size: cover;
             }
         }
 
         .dron {
             &::before {
-                background: url(../img/dron.jpg);
+                background: url("../img/dron.jpg");
                 background-size: cover;
             }
         }

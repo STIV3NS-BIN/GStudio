@@ -40,7 +40,7 @@
                     <a href="#" class="scroll-btn" data-target="#galleries">
                         Moje prace
                     </a>
-                    <a href="#" class="scroll-btn">
+                    <a href="#" class="scroll-btn" data-target="#contact">
                         Kontakt
                     </a>
                 </div>
@@ -56,6 +56,36 @@
                 <div class="gallery teledyski"><a href="#">Teledyski</a></div>
                 <div class="gallery inne"><a href="#">Inne</a></div>
                 <div class="gallery dron"><a href="#">Dron</a></div>
+            </div>
+        </div>
+
+        <div class="contact" id="contact">
+            <div class="square">
+
+                <div class="item outlined" id="email-container">
+                    <div class="email" id="email"></div>
+                </div>
+                <div class="item text" id="email-text">
+                    fabian@gstudio.cf
+                </div>
+                <div class="item text" id="cell-text">
+                    +48 666 666 666
+                </div>
+                <div class="item outlined" id="cell-container">
+                    <div class="cell" id="cell"></div>
+                </div>
+                
+                <script>
+                    (function(){
+                        document.getElementById('email-container').addEventListener('mouseover', function(){
+                            document.getElementById('email-text').classList.add('shown');
+                        });
+
+                        document.getElementById('cell-container').addEventListener('mouseover', function(){
+                            document.getElementById('cell-text').classList.add('shown');
+                        });
+                    })();
+                </script>
             </div>
         </div>
 
