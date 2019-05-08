@@ -1,0 +1,13 @@
+.video-gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-gallery .player-tile {
+  box-sizing: border-box;
+  padding: 30px;
+  width: 45vw;
+}
