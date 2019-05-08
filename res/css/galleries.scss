@@ -13,7 +13,7 @@
 
         .gallery {
             position: relative;
-            width: 45vmin;
+            width: 90vmin;
             height: 45vmin;
             transition: 1000ms;
             filter: grayscale(0);
@@ -59,30 +59,16 @@
             }
         }
 
-        .wideorelacje {
+        .photography {
             &::before {
-                background: url("../img/wideorelacje.png");
+                background: url("../img/photography.jpg");
                 background-size: cover;
             }
         }
 
-        .teledyski {
+        .video {
             &::before {
-                background: url("../img/music.png");
-                background-size: cover;
-            }
-        }
-
-        .inne {
-            &::before {
-                background: url("../img/inne.jpg");
-                background-size: cover;
-            }
-        }
-
-        .dron {
-            &::before {
-                background: url("../img/dron.jpg");
+                background: url("../img/video.jpeg");
                 background-size: cover;
             }
         }

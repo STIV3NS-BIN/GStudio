@@ -189,7 +189,7 @@
 
 .galleries .square .gallery {
   position: relative;
-  width: 45vmin;
+  width: 90vmin;
   height: 45vmin;
   transition: 1000ms;
   filter: grayscale(0);
@@ -235,22 +235,12 @@
   transform: scale(1.15);
 }
 
-.galleries .square .wideorelacje::before {
-  background: url("../img/wideorelacje.png");
+.galleries .square .photography::before {
+  background: url("../img/photography.jpg");
   background-size: cover;
 }
 
-.galleries .square .teledyski::before {
-  background: url("../img/music.png");
-  background-size: cover;
-}
-
-.galleries .square .inne::before {
-  background: url("../img/inne.jpg");
-  background-size: cover;
-}
-
-.galleries .square .dron::before {
-  background: url("../img/dron.jpg");
+.galleries .square .video::before {
+  background: url("../img/video.jpeg");
   background-size: cover;
 }
