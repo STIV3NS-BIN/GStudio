@@ -49,7 +49,7 @@
 
         <div class="galleries" id="galleries">
             <div class="square">
-                <div class="gallery photography"><a href="#">FOTOGRAFIA</a></div>
+                <div class="gallery photography"><a href="#" id="photography">FOTOGRAFIA</a></div>
                 <div class="gallery video"><a href="video/">WIDEO</a></div>
             </div>
         </div>
@@ -65,6 +65,68 @@
                         ' i może nie być prawidłowo wyświetlana na przeglądarcę Edge.');
             }
         })();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.1.1/dist/js/lightgallery.min.js"></script>
+    <script src="res/js/lg-thumbnail.js"></script>
+    <script src="res/js/lg-hash.js"></script>
+    <script>
+        document.getElementById('photography').addEventListener('click', function(e) {
+            e.preventDefault();
+            lightGallery(document.getElementById('photography'), {
+                dynamic: true,
+                mode: 'lg-fade',
+                thumbnail:true,
+                showThumbByDefault: true,
+                dynamicEl: [{
+                    "src": 'res/img/photogallery/1.jpg',
+                    'thumb': 'res/img/photogallery/1.jpg'
+                }, {
+                    'src': 'res/img/photogallery/2.jpg',
+                    'thumb': 'res/img/photogallery/2.jpg'
+                }, {
+                    'src': 'res/img/photogallery/3.jpg',
+                    'thumb': 'res/img/photogallery/3.jpg'
+                }, {
+                    'src': 'res/img/photogallery/4.jpg',
+                    'thumb': 'res/img/photogallery/4.jpg'
+                }, {
+                    'src': 'res/img/photogallery/5.jpg',
+                    'thumb': 'res/img/photogallery/5.jpg'
+                }, {
+                    'src': 'res/img/photogallery/6.jpg',
+                    'thumb': 'res/img/photogallery/6.jpg'
+                }, {
+                    'src': 'res/img/photogallery/7.jpg',
+                    'thumb': 'res/img/photogallery/7.jpg'
+                }, {
+                    'src': 'res/img/photogallery/8.jpg',
+                    'thumb': 'res/img/photogallery/8.jpg'
+                }, {
+                    'src': 'res/img/photogallery/9.jpg',
+                    'thumb': 'res/img/photogallery/9.jpg'
+                }, {
+                    'src': 'res/img/photogallery/10.jpg',
+                    'thumb': 'res/img/photogallery/10.jpg'
+                }, {
+                    'src': 'res/img/photogallery/11.jpg',
+                    'thumb': 'res/img/photogallery/11.jpg'
+                }, {
+                    'src': 'res/img/photogallery/12.jpg',
+                    'thumb': 'res/img/photogallery/12.jpg'
+                }, {
+                    'src': 'res/img/photogallery/13.jpg',
+                    'thumb': 'res/img/photogallery/13.jpg'
+                }, {
+                    'src': 'res/img/photogallery/14.jpg',
+                    'thumb': 'res/img/photogallery/14.jpg'
+                }, {
+                    'src': 'res/img/photogallery/15.jpg',
+                    'thumb': 'res/img/photogallery/15.jpg'
+                }]
+            })
+        
+        });
     </script>
 </body>
 </html>
