@@ -59,17 +59,20 @@
             }
         }
 
-        .photography {
+        .production {
+            border-bottom: 1px solid #333;
             &::before {
-                background: url("../img/photography.jpg");
+                /* Photo by Donovan Silva on Unsplash.com */
+                background: url("../img/video.jpg");
                 background-size: cover;
             }
         }
 
         
-        .video {
+        .montage {
             &::before {
-                background: url("../img/video.jpeg");
+                /* Photo by Wu Jianxiong on Unsplash.com */
+                background: url("../img/wedding.jpg");
                 background-size: cover;
             }
         }

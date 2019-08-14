@@ -11,7 +11,7 @@
 
         <div class="intro">
             <img src="res/img/GLogo.png" alt="GStudio">
-            <a href="#" class="show-more scroll-btn" data-target="#about">
+            <a href="#" id="show-more" class="show-more scroll-btn" data-target="#about">
                 Pokaż więcej
             </a>
         </div>
@@ -49,8 +49,12 @@
 
         <div class="galleries" id="galleries">
             <div class="square">
-                <div class="gallery photography"><a href="#" id="photography">Pełna realizacja filmowa</a></div>
-                <div class="gallery video"><a href="video/">Montaż, color graidind</a></div>
+                <div id="production" class="gallery production">
+                    <a href="#">Pełna realizacja filmowa</a>
+                </div>
+                <div id="montage" class="gallery montage">
+                    <a href="#">Wesela /montaż/</a>
+                </div>
             </div>
         </div>
 
@@ -67,66 +71,16 @@
         })();
     </script>
 
-    <script src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.1.1/dist/js/lightgallery.min.js"></script>
-    <script src="res/js/lg-thumbnail.js"></script>
-    <script src="res/js/lg-hash.js"></script>
-    <script>
-        document.getElementById('photography').addEventListener('click', function(e) {
-            e.preventDefault();
-            lightGallery(document.getElementById('photography'), {
-                dynamic: true,
-                mode: 'lg-fade',
-                thumbnail:true,
-                showThumbByDefault: true,
-                dynamicEl: [{
-                    "src": 'res/img/photogallery/1.jpg',
-                    'thumb': 'res/img/photogallery/1.jpg'
-                }, {
-                    'src': 'res/img/photogallery/2.jpg',
-                    'thumb': 'res/img/photogallery/2.jpg'
-                }, {
-                    'src': 'res/img/photogallery/3.jpg',
-                    'thumb': 'res/img/photogallery/3.jpg'
-                }, {
-                    'src': 'res/img/photogallery/4.jpg',
-                    'thumb': 'res/img/photogallery/4.jpg'
-                }, {
-                    'src': 'res/img/photogallery/5.jpg',
-                    'thumb': 'res/img/photogallery/5.jpg'
-                }, {
-                    'src': 'res/img/photogallery/6.jpg',
-                    'thumb': 'res/img/photogallery/6.jpg'
-                }, {
-                    'src': 'res/img/photogallery/7.jpg',
-                    'thumb': 'res/img/photogallery/7.jpg'
-                }, {
-                    'src': 'res/img/photogallery/8.jpg',
-                    'thumb': 'res/img/photogallery/8.jpg'
-                }, {
-                    'src': 'res/img/photogallery/9.jpg',
-                    'thumb': 'res/img/photogallery/9.jpg'
-                }, {
-                    'src': 'res/img/photogallery/10.jpg',
-                    'thumb': 'res/img/photogallery/10.jpg'
-                }, {
-                    'src': 'res/img/photogallery/11.jpg',
-                    'thumb': 'res/img/photogallery/11.jpg'
-                }, {
-                    'src': 'res/img/photogallery/12.jpg',
-                    'thumb': 'res/img/photogallery/12.jpg'
-                }, {
-                    'src': 'res/img/photogallery/13.jpg',
-                    'thumb': 'res/img/photogallery/13.jpg'
-                }, {
-                    'src': 'res/img/photogallery/14.jpg',
-                    'thumb': 'res/img/photogallery/14.jpg'
-                }, {
-                    'src': 'res/img/photogallery/15.jpg',
-                    'thumb': 'res/img/photogallery/15.jpg'
-                }]
-            })
-        
-        });
-    </script>
+    <!-- light-gallery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.11/js/lightgallery-all.min.js"></script>
+    <!-- light-gallery -->
+
+    <!-- #production and #montage onClicks -->
+    <script src="res/js/productionClickHandler.js"></script>
+    <script src="res/js/montageClickHandler.js"></script>
+    <!-- #production and #montage onClicks -->
 </body>
 </html>

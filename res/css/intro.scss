@@ -28,7 +28,7 @@ $lightblue: #0071bc;
         background: $lightblue;
         cursor: pointer;
         opacity: 0;
-        animation: show-more-fade-in 500ms ease-in forwards;
+        animation: show-more-fade-in $duration ease-in forwards;
         animation-delay: $duration;
 
         &:hover {
