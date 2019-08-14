@@ -37,7 +37,7 @@
   background: #0071bc;
   cursor: pointer;
   opacity: 0;
-  animation: show-more-fade-in 2000ms ease-in forwards;
+  animation: show-more-fade-in 400ms ease-in forwards;
   animation-delay: 2000ms;
 }
 

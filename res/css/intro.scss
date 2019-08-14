@@ -1,4 +1,4 @@
-$duration: 2000ms;
+$intro-duration: 2000ms;
 $lightblue: #0071bc;
 
 .intro {
@@ -8,12 +8,12 @@ $lightblue: #0071bc;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    animation: intro-fade-in $duration ease-in forwards;
+    animation: intro-fade-in $intro-duration ease-in forwards;
 
     img {
         max-width: 40vmin;
         height: auto;
-        animation: intro-img-fly-in $duration ease-in-out forwards;
+        animation: intro-img-fly-in $intro-duration ease-in-out forwards;
     }
 
     .show-more {
@@ -28,8 +28,8 @@ $lightblue: #0071bc;
         background: $lightblue;
         cursor: pointer;
         opacity: 0;
-        animation: show-more-fade-in $duration ease-in forwards;
-        animation-delay: $duration;
+        animation: show-more-fade-in 400ms ease-in forwards;
+        animation-delay: $intro-duration;
 
         &:hover {
             color: $lightblue;
