@@ -15,7 +15,6 @@
                 {src: 'https://www.youtube.com/watch?v=hG8DSfz_yDs'},
                 {src: 'https://www.youtube.com/watch?v=YApLzgQbs7Y'},
                 {src: 'https://www.youtube.com/watch?v=NqshGTgA8_c'},
-                {src: 'https://www.youtube.com/watch?v=HMTZ4RN3fpg'},
                 {src: 'https://www.youtube.com/watch?v=H-wnuJqLlnA'},
                 {src: 'https://www.youtube.com/watch?v=b7aOw_dLbRk'},
                 {src: 'https://https://youtu.be/rsYM7AbjkAw'}
