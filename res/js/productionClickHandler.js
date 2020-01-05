@@ -11,13 +11,13 @@
             videoMaxWidth: '1000px',
             autoplayFirstVideo: false,
             dynamicEl: [
-                {src: 'https://www.youtube.com/watch?v=IFlpEhcfbd4'},
+                {src: 'https://youtu.be/rsYM7AbjkAw'},
                 {src: 'https://www.youtube.com/watch?v=hG8DSfz_yDs'},
                 {src: 'https://www.youtube.com/watch?v=YApLzgQbs7Y'},
                 {src: 'https://www.youtube.com/watch?v=NqshGTgA8_c'},
                 {src: 'https://www.youtube.com/watch?v=H-wnuJqLlnA'},
                 {src: 'https://www.youtube.com/watch?v=b7aOw_dLbRk'},
-                {src: 'https://https://youtu.be/rsYM7AbjkAw'}
+                {src: 'https://www.youtube.com/watch?v=IFlpEhcfbd4'}
             ]
         });
     
