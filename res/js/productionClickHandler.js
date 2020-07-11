@@ -11,7 +11,9 @@
             videoMaxWidth: '1000px',
             autoplayFirstVideo: false,
             dynamicEl: [
-                {src: 'https://youtu.be/fnPfo7l4UD4'},
+                {src: 'https://youtu.be/t4hUfyKmo3k'},
+                {src: 'https://youtu.be/R6mmLR8GO1E'},
+                {src: 'https://youtu.be/ipm4mT3XNkc'},
                 {src: 'https://youtu.be/lrDmmM5u-4o'},
                 {src: 'https://youtu.be/rsYM7AbjkAw'},
                 {src: 'https://www.youtube.com/watch?v=hG8DSfz_yDs'},
