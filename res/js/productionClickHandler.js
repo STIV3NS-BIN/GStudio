@@ -12,6 +12,7 @@
             autoplayFirstVideo: false,
             dynamicEl: [
                 {src: 'https://youtu.be/t4hUfyKmo3k'},
+                {src: 'https://youtu.be/xZeXYhCHYTU'},
                 {src: 'https://youtu.be/R6mmLR8GO1E'},
                 {src: 'https://youtu.be/ipm4mT3XNkc'},
                 {src: 'https://youtu.be/lrDmmM5u-4o'},
